@@ -1,13 +1,13 @@
-      // ASSIGNMENT 4
+       // ASSIGNMENT 4
 // TASK 1
 // develope a program that calculates and prints the sum of the first n even numbers using for loop
-var num1:number = 0
+var num:number = 0
 for(let i = 0; i<16; i++){
     if(i % 2 == 0){
-        num1 = num1 + i
+        num = num + i
     }
 }
-console.log("sum of even number is :",num1)
+console.log("sum of even number is :",num)
 
 // TASK 2
 /* implement a program that uses a for loop to iterate through an array of numbers and print only the
@@ -65,6 +65,6 @@ function findLargest(num:number[]){
     }
 return largest
 }
-let numb1 = [10,55,20,15,25]
-let returnArray = findLargest(numb1)
+let numbers = [10,55,20,15,25]
+let returnArray = findLargest(numbers)
 console.log("the largest element in an array is:",returnArray)
