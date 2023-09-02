@@ -74,14 +74,14 @@ else{
 /* program that checks if a number is divisible by 3 or 5 or both or not 
 divisible by anyone show output accordingly */
 
-var number:number = 30
-if(number% 3 == 0 && number% 5 == 0){
+var numbers:number = 30
+if(numbers% 3 == 0 && numbers% 5 == 0){
     console.log("number is divisble by both 3 or 5")
 }
-else if(number % 3==0){
+else if(numbers % 3==0){
     console.log("number is divisible by 3")
 } 
-else if(number% 5 == 0){
+else if(numbers% 5 == 0){
     console.log("number is divisible by 5")
 }
 else{
