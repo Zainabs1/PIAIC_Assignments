@@ -1,0 +1,22 @@
+// ASSIGNMENT 1
+console.log("Hey Abu Hurairah , I have started learning TYPESCRIPT.");
+var myName = "Zainab";
+console.log(myName);
+var num1 = 2;
+var num2 = 3;
+var num3 = 4;
+var num4 = 5;
+var num5 = 6;
+var num6 = 7;
+var num7 = 8;
+var num8 = 9;
+var num9 = 10;
+var num10 = 11;
+var add = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10;
+console.log("addition: ", add);
+var subtract = num1 - num2 - num3 - num4 - num5 - num6 - num7 - num8 - num9 - num10;
+console.log("Difference:", subtract);
+var multiply = num1 * num2 * num3 * num4 * num5 * num6 * num7 * num8 * num9 * num10;
+console.log("Multiplication:", multiply);
+var dividing = num6 / num9;
+console.log("Division: ", dividing);
