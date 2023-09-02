@@ -49,10 +49,10 @@ const result6 = updateQuantity(myCartWithQuantities, index5, toDelete, toUpdate5
 console.log(result6);
 
 // Write a program that uses while loop to print first 25 integers
-let i : number = 1;
-while(i <= 25){
-    console.log(i);
-    i++;
+let a : number = 1;
+while(a <= 25){
+    console.log(a);
+    a++;
 };
 
 // TASK 3
@@ -130,8 +130,8 @@ var celciusArray:number[] = [1,20,42,18,6]
 var far:number[]= []
 var index:number = 1
 
-while(i<celciusArray.length){
-    var farhenhiet:number = (celciusArray[i] * 9/5) + 32
+while(index<celciusArray.length){
+    var farhenhiet:number = (celciusArray[index] * 9/5) + 32
      far.push(farhenhiet)
      index++
 }
