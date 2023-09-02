@@ -1,3 +1,4 @@
+"use strict";
 // ASSIGNMENT 1
 console.log("Hey Abu Hurairah , I have started learning TYPESCRIPT.");
 var myName = "Zainab";
