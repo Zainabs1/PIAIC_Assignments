@@ -3,12 +3,12 @@
 /* Create a function that takes an array, an index, and a value as parameters. Inside the function, use
 the splice method to insert the value at the specified index in the array. return the modified array.*/
 
-function createArray(array,index,value){
-    array.splice(index,0,value)
-    return array
+function createArray(arr:number[], index1:number,value:number){
+    arr.splice(index1,0,value)
+    return arr
 }
 let insertValue:number[] = [1,2,3,4,5,6,7,8,9]
-let modifyArray:number = createArray(insertValue,1,6) 
+let modifyArray = createArray(insertValue,1,6) 
 console.log(modifyArray)
 
 // TASK 2
