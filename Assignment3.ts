@@ -78,16 +78,7 @@ return the factorial of that number */
 
 function factorial(fact:number){
     var result1 = 1
-    while(fact > 1){  //factorial 1 sy bara isliye likha condition mei ku k 0 or 1 ka factorial nae hota
-    //factorial agr 5 ka lena to aisy laity 5*4*3*2*1
-    result1 = result1 * fact /*isline ka mtlb hy ky pehly agr result 1 hy to fact 6 hy to 1*6 hoga 
-    to result mei 6 add ho jay ga or fact mei aik decrement ho kr 5 ho jay ga phr 5 fact ka or result 
-     mi jo 6 hy to 5*6 hoga or result mei 30 hoga or fact ka decrement ho kr 4 ho jay ga phr 4 * 
-     result wala 30 to 4* 30 to result mei 120 ho jay ga or fact ka decrement ho kr 3 ho jata to 
-     3 * 120 ho jata to result mei 360 hoga or fact ka 3 decrement ho kr 2 ho jata or phr fact ka 2
-     or result ka 360 multiply ho kr 360 * 2 ho kr result mei 720 ho jata or jb fact ka decrement ho 
-     kr 1 ho jata to loop stop ho jata ku k condition mei likha hy ky 1 sy zyada jb tk hoga tb tk
-     loop chly gi*/
+    while(fact > 1){  result1 = result1 * fact 
     fact = fact - 1
     }
     return result1
@@ -102,9 +93,9 @@ number from the array*/
 
 var num:number[] = [2,3,-4,-5,6,-7,8,-9]
 var value = 0
-while(value < num.length){ //is ka mtlb hy ky value array ki length sy jb tk choti hy to loop chlta rhyga
-if(num[value] < 0){
-    num.splice(value,1) // value , 1 ka mtlb hy ky 1 value delete krni hy
+while(value < num.length){ 
+    if(num[value] < 0){
+    num.splice(value,1)  
 }
 else{
     value++
@@ -120,7 +111,7 @@ function arrayOfNumbers (numb:number[]):number{
     var index = 0
     var total = 0
     while(index< numb.length){
-        total = total + numb[index] // [index] ye index btata hy ky konsi value kis index pr hy
+        total = total + numb[index] 
         index++
     
     }
