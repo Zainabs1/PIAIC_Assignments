@@ -29,8 +29,7 @@ $100,apply a 10% discount otherwise, apply 5% discount.*/
 
 var price:number = 1000;
 if(price >= 100){
-    var discount:number = price * 10/100;   //discount find krny ky liye price * jitna dicount hy
-    //10 percent divided by 100 phr price - dicount ta k final price aaa sky
+    var discount:number = price * 10/100;   
     var final_Price:number = price - discount ;
     console.log("there is a 10 % discount on it", final_Price)
 }
@@ -92,8 +91,7 @@ else{
 
 //TASK 8
 // program that checks if a given year is leap year or not
-var year:number = 1600      // leap year 4 saal bad ata usually 1 year mei 365 days hoty
-                            //lekin leap year mei 366 days hoty
+var year:number = 1600      
 if(year%4==0 && (year%100 != 0 || year % 400 == 0)){
     console.log("it is a leap year")
 }
@@ -106,8 +104,7 @@ else{
 /* develope a program that determine days of the week.Ask the user for a number(1-7)
 and use nested if statment to print the corresponding days name */
 var day:number = 6
-switch(day){    // switch statemnt aksar zyada condition pr lgaty or jb case simple ho jaisy day 1 
-                // day 2 or grade A grade B etc
+switch(day){    
     case 1:
         console.log("Today is Monday")
         break;
